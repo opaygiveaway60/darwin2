@@ -1,0 +1,34 @@
+#main_pic {
+	animation-name: main_pic_animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes main_pic_animation {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.4);
+	}
+}
+
+#second_pic {
+	animation-name: second_pic_animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes second_pic_animation {
+	0% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(15px);
+	}
+}
+
